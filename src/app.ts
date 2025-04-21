@@ -7,9 +7,9 @@ const app = express()
 // Configuración de plantilla EJS
 app.set('view engine', 'ejs')
 app.set('views', [
-    path.join(__dirname, 'views/main.ejs'),
-    path.join(__dirname, '../src/views/main.ejs'),
-    path.join(process.cwd(), 'views/main.ejs')
+    path.join(__dirname, 'views'),
+    path.join(__dirname, '../src/views'),
+    path.join(process.cwd(), 'views')
 ])
 
 app.use(express.json())

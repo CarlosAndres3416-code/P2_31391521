@@ -9,7 +9,7 @@ export const getHome = (req: Request, res: Response) => {
     seccion:3
   }
   
-  res.render('main', { 
+  res.render('main.ejs', { 
     title: 'Mi Información Personal',
     info: miInfo 
   })
