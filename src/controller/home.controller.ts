@@ -10,7 +10,7 @@ export const getHome = (req: Request, res: Response) => {
   }
   
   res.render('main.ejs', { 
-    title: 'Mi Información Personal',
+    title: 'SafeRide - Transporte Escolar Seguro',
     info: miInfo 
   })
 }
