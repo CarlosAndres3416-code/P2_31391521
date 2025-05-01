@@ -145,27 +145,27 @@ nav ul li a:hover {
     color: var(--light-color);
 }
 
-/* Services */
-.services {
-    padding: 5rem 0;
+/* Servicios */
+.servicios {
+    padding: 20px;
     text-align: center;
     background: var(--light-color);
 }
 
-.services h2 {
+.servicios h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
     color: var(--primary-color);
 }
 
-.services-grid {
+.servicios-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
 }
 
-.service-card {
+.servicios-card {
     background: white;
     padding: 2rem;
     border-radius: 10px;
@@ -173,88 +173,88 @@ nav ul li a:hover {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.service-card:hover {
+.servicios-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
-.service-card i {
+.servicios-card i {
     font-size: 3rem;
     color: var(--secondary-color);
     margin-bottom: 1.5rem;
 }
 
-.service-card h3 {
+.servicios-card h3 {
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
 
-/* Benefits */
-.benefits {
-    padding: 5rem 0;
+/* Beneficios */
+.beneficios {
+    padding: 20px;
     display: flex;
     align-items: center;
     background: white;
 }
 
-.benefits-content {
+.beneficios-content {
     flex: 1;
     padding-right: 3rem;
 }
 
-.benefits h2 {
+.beneficios h2 {
     font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 2rem;
 }
 
-.benefits ul {
+.beneficios ul {
     list-style: none;
 }
 
-.benefits ul li {
+.beneficios ul li {
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
 }
 
-.benefits ul li i {
+.beneficios ul li i {
     color: var(--secondary-color);
     margin-right: 1rem;
     font-size: 1.2rem;
 }
 
-.benefits-image {
+.beneficios-image {
     flex: 1;
 }
 
-.benefits-image img {
+.beneficios-image img {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Fleet */
-.fleet {
-    padding: 5rem 0;
+/* Flota */
+.flota {
+    padding: 20px;
     text-align: center;
     background: var(--light-color);
 }
 
-.fleet h2 {
+.flota h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
     color: var(--primary-color);
 }
 
-.fleet-grid {
+.flota-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
 }
 
-.vehicle-card {
+.vehiculo-card {
     background: white;
     border-radius: 10px;
     overflow: hidden;
@@ -262,39 +262,39 @@ nav ul li a:hover {
     transition: transform 0.3s;
 }
 
-.vehicle-card:hover {
+.vehiculo-card:hover {
     transform: translateY(-10px);
 }
 
-.vehicle-card img {
+.vehiculo-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
-.vehicle-card h3 {
+.vehiculo-card h3 {
     padding: 1rem;
     color: var(--primary-color);
 }
 
-.vehicle-card p {
+.vehiculo-card p {
     padding: 0 1rem 1.5rem;
 }
 
 /* Testimonials */
-.testimonials {
+.testimonios {
     padding: 5rem 0;
     text-align: center;
     background: white;
 }
 
-.testimonials h2 {
+.testimonios h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
     color: var(--primary-color);
 }
 
-.testimonials-grid {
+.testimonios-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
@@ -302,14 +302,14 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-.testimonial-card {
+.testimonio-card {
     background: var(--light-color);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-.testimonial-card img {
+.testimonio-card img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -317,40 +317,40 @@ nav ul li a:hover {
     margin-bottom: 1rem;
 }
 
-.testimonial-card p {
+.testimonio-card p {
     font-style: italic;
     margin-bottom: 1.5rem;
 }
 
-.testimonial-card h4 {
+.testimonio-card h4 {
     color: var(--secondary-color);
 }
 
-/* Contact */
-.contact {
-    padding: 5rem 0;
+/* Contacto */
+.contacto {
+    padding: 20px;
     display: flex;
     background: var(--light-color);
 }
 
-.contact-form {
+.contacto-form {
     flex: 1;
     padding-right: 3rem;
 }
 
-.contact h2 {
+.contacto h2 {
     font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 2rem;
 }
 
-.contact form {
+.contacto form {
     display: grid;
     gap: 1rem;
 }
 
-.contact form input,
-.contact form textarea {
+.contacto form input,
+.contacto form textarea {
     width: 100%;
     padding: 1rem;
     border: 1px solid #ddd;
@@ -358,12 +358,12 @@ nav ul li a:hover {
     font-family: inherit;
 }
 
-.contact form textarea {
+.contacto form textarea {
     height: 150px;
     resize: vertical;
 }
 
-.contact-info {
+.contacto-info {
     flex: 1;
     background: var(--primary-color);
     padding: 2rem;
@@ -371,19 +371,19 @@ nav ul li a:hover {
     color: white;
 }
 
-.contact-info h3 {
+.contacto-info h3 {
     color: white;
     margin-bottom: 1.5rem;
 }
 
-.contact-info p {
+.contacto-info p {
     margin-bottom: 1.5rem;
     color: var(--light-color);
     display: flex;
     align-items: center;
 }
 
-.contact-info i {
+.contacto-info i {
     margin-right: 1rem;
     color: var(--secondary-color);
 }
@@ -408,7 +408,7 @@ nav ul li a:hover {
 footer {
     background: var(--dark-color);
     color: white;
-    padding: 3rem 0 0;
+    padding: 20px;
 }
 
 .footer-content {
@@ -489,13 +489,13 @@ footer {
         font-size: 2.2rem;
     }
     
-    .benefits,
-    .contact {
+    .beneficios,
+    .contacto {
         flex-direction: column;
     }
     
-    .benefits-content,
-    .contact-form {
+    .beneficios-content,
+    .contacto-form {
         padding-right: 0;
         margin-bottom: 2rem;
     }
